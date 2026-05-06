@@ -1,0 +1,16 @@
+type          2 C F
+version       4
+cutoff        6 3
+n_max         10 10
+basis_size    8 8
+l_max         4 2 0
+neuron        40
+lambda_1      0.077
+lambda_2      0.077
+lambda_e      0.4
+lambda_f      1.0
+lambda_v      0.1
+force_delta   0
+batch         1000
+population    60
+generation    1000000

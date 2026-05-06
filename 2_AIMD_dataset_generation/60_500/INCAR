@@ -1,0 +1,34 @@
+ISTART = 0
+ICHARG = 2
+
+# Ionic
+ISIF = 2
+LREAL = .FALSE.
+ISYM = 0
+
+# Electronic
+ENCUT = 600
+ISMEAR = 0
+SIGMA = 0.05
+PREC = Accurate
+#IALGO = 48
+ISPIN = 1
+NELM = 500
+NELMIN = 5
+EDIFF = 1E-06
+EDIFFG = -0.01
+
+#MD
+MDALGO = 3
+IBRION = 0
+NSW = 2000
+POTIM = 0.5
+TEBEG = 500
+SMASS = -1
+PMASS = 30
+LANGEVIN_GAMMA = 10 15
+
+# Parallelization
+NPAR=5
+LWAVE = .FALSE.
+LCHARG = .FALSE.

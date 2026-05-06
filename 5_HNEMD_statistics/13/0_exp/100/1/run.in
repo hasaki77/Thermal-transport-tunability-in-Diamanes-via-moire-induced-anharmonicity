@@ -1,0 +1,12 @@
+potential       /trinity/home/khasan.akhmadiev/research/diamane/Diamane_FULL/Dm_F_F/5.NEP/5.1.NEP.Potential/nep.txt
+velocity        100
+
+ensemble        nvt_nhc 100 100 100
+time_step       1
+dump_thermo     100
+run             100000
+
+ensemble        nvt_nhc 100 100 100
+compute_hnemd   1000 0 0.00001 0
+compute_shc     2 1000 1 1000 500.0
+run             10000000
